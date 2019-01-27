@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Dog-matching app for final project at Technigo. Built in React and Node.js with MongoDB as database",
+      "image": "matching-paws.png",
+      "link": "https://github.com/SofiaBerglund/matching-paws"
+    },
+    {
+      "id": 2,
+      "title": "Career page with partner company Comprend @Technigo. Team project built in React, using their internal career API.",
+      "image": "career-page.png",
+      "link": "https://github.com/SofiaBerglund/Career-page-for-Comprend"
+    },
+    {
+      "id": 3,
+      "title": "VAT calculator built in React.",
+      "image": "VAT.png",
+      "link": "https://github.com/SofiaBerglund/VAT-Calculator"
+    },
+    {
+      "id": 4,
+      "title": "A sign up form created in HTML and CSS with the aim to resemble the sign up form for Karma app.",
+      "image": "karma.png",
+      "link": "https://github.com/SofiaBerglund/Sign-up-form"
+    }
+  ]
+}
