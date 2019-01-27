@@ -22,4 +22,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   margin-top: 60px;
 }
+@media (max-width: 450px) {
+  #app {
+    margin-top: 10px;
+  }
+}
 </style>

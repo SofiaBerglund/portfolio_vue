@@ -44,7 +44,7 @@
           :image="project.image"
           :link="project.link"
         />
-        <a href="">
+        <a href="https://github.com/SofiaBerglund/portfolio_vue">
           <p>(Portfolio built in Vue.js)</p>
         </a>
       </div>
@@ -143,14 +143,6 @@ export default {
 </script>
 
 <style lang="scss">
-header {
-  font-size: 16px;
-  padding-left: 50px;
-  .name-header {
-    font-size: 20px;
-    font-style: italic;
-  }
-}
 h1 {
   font-family: BigJohn, Futura, Arial;
   color: #000;
@@ -176,6 +168,14 @@ button {
   .header-container {
     width: 100%;
     display: flex;
+    header {
+      font-size: 16px;
+      padding-left: 50px;
+      .name-header {
+        font-size: 20px;
+        font-style: italic;
+      }
+    }
     .leftofheader-container {
       width: 80%;
       height: auto;
@@ -205,6 +205,53 @@ button {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .landing-page-container {
+    padding: 0 50px;
+    .header-container {
+      header {
+        width: 80%;
+        padding-left: 20px;
+      }
+      .leftofheader-container {
+        width: 50%;
+      }
+    }
+    .projects-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .landing-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      header {
+        width: 100%;
+        padding-left: 0;
+      }
+      .leftofheader-container {
+        width: 100%;
+      }
+    }
+    .skills-container {
+      width: 100%;
+      .skills-content {
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
 }
