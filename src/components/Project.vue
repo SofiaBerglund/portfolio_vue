@@ -48,6 +48,9 @@ export default {
   .project-container {
     width: 90%;
     height: 400px;
+    .project-img {
+    height: 300px;
+    }
   }
 }
 </style>

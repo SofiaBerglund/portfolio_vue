@@ -21,9 +21,9 @@
             team player who love to share knowledge and to learn from
             others.
           </p>
-          <button>
-            <a href="https://github.com/SofiaBerglund">SEE MY GITHUB</a>
-          </button>
+          <a href="https://github.com/SofiaBerglund">
+            <button>SEE MY GITHUB</button>
+          </a>
         </header>
       </div>
       <div class="tech-summary">
@@ -115,9 +115,11 @@
         </div>
       </div>
 
-      <button>
-        <a href="https://www.linkedin.com/in/sofia-berglund-b04344a7/">SEE MY LINKEDIN</a>
-      </button>
+      <div>
+        <a href="https://www.linkedin.com/in/sofia-berglund-b04344a7/">
+          <button>SEE MY LINKEDIN</button>
+        </a>
+      </div>
     </div>
     <Footer></Footer>
   </div>
@@ -150,7 +152,6 @@ h1 {
 a {
   text-decoration: inherit;
   color: inherit;
-  font-size: 16px;
 }
 button {
   padding: 10px 20px;
@@ -158,6 +159,7 @@ button {
   border: none;
   border-radius: 50px;
   font-family: BigJohn, Futura, Arial;
+  font-size: 16px;
   color: #f6a623;
   background-color: #feeed7;
   cursor: pointer;
