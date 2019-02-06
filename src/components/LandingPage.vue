@@ -71,6 +71,8 @@
               <li>Visual Studio Code</li>
               <li>Atom</li>
               <li>Postman</li>
+              <li>Microsoft Azure</li>
+              <li>CMS systems</li>
               <li>Microsoft Dynamics NAV</li>
               <li>Palette</li>
               <li>Centsoft</li>
