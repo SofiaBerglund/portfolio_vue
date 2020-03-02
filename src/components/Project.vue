@@ -21,7 +21,8 @@ export default {
 <style lang="scss">
 .project-container {
   width: calc(50% - 40px);
-  height: 430px;
+  height: auto;
+  min-height: 430px;
   margin: 20px 0;
   padding: 0 10px 10px;
   border: 2px solid #f7cfd9;
@@ -29,19 +30,20 @@ export default {
     height: 350px;
     overflow: hidden;
     img {
-      object-fit: contain;
+      object-fit: cover;
       width: 100%;
+      height: 100%;
     }
   }
 }
-@media (max-width: 1200px) {
-  .project-container {
-    width: 80%;
-  }
-}
+// @media (max-width: 1200px) {
+//   .project-container {
+//     width: 80%;
+//   }
+// }
 @media (max-width: 800px) {
   .project-container {
-    width: 100%;
+    width: 60%;
   }
 }
 @media (max-width: 450px) {

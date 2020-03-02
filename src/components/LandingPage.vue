@@ -4,7 +4,7 @@
       <div class="header-container">
         <div class="leftofheader-container">
           <div class="image-container">
-            <img src="header-image.JPG" alt="portrait">
+            <img src="header-image.JPG" alt="portrait" />
           </div>
           <div class="contact-info">
             <p>berglund.sofia@gmail.com</p>
@@ -17,9 +17,8 @@
           <p>
             Hi! I am a junior frontend developer with previous experience in
             accounting and biology. I love solving problems and writing
-            beautiful code. I am a curious and creative perfectionist and a
-            team player who love to share knowledge and to learn from
-            others.
+            beautiful code. I am a curious and creative perfectionist and a team
+            player who love to share knowledge and to learn from others.
           </p>
           <a href="https://github.com/SofiaBerglund">
             <button>SEE MY GITHUB</button>
@@ -29,11 +28,10 @@
       <div class="tech-summary">
         <h1>TECH</h1>
         <p>
-          HTML5, CSS, SASS, Javascript, ES6, JSX, React, Vue.js, Node.js,
-          API:s &bull; 6 sprints with demos together with companies like
-          Volumental, Bonnier, Comprend and Svenska Spel @ Technigo &bull;
-          Presently at Visual Art building templates in CMS systems for
-          digital signage
+          HTML5, CSS, SASS, Javascript, ES6, JSX, React, Vue.js, Node.js, API:s
+          &bull; 6 sprints with demos together with companies like Volumental,
+          Bonnier, Comprend and Svenska Spel @ Technigo &bull; Presently at
+          Visual Art building templates in CMS systems for digital signage
         </p>
       </div>
       <div class="projects-container">
@@ -95,24 +93,24 @@
         <div class="studies-content">
           <h2>FRONTEND DEVELOPER</h2>
           <p>
-            Technigo. Full-time 12 week boot camp / intensive program.
-            Covering everything from the basics of programming to how to
-            structure and build bigger web projects. Focus on JavaScript.
-            Total 480 coding hours, 50+ individual tasks (in HTML5, CSS,
-            SASS, JavaScript, JSX, React, Node.js) and 6 sprints with demos
-            together with companies like Volumental, Bonnier, Comprend and
-            Svenska Spel.
-            <br>Stockholm Sept - Nov 2018
+            Technigo. Full-time 12 week boot camp / intensive program. Covering
+            everything from the basics of programming to how to structure and
+            build bigger web projects. Focus on JavaScript. Total 480 coding
+            hours, 50+ individual tasks (in HTML5, CSS, SASS, JavaScript, JSX,
+            React, Node.js) and 6 sprints with demos together with companies
+            like Volumental, Bonnier, Comprend and Svenska Spel.
+            <br />Stockholm Sept - Nov 2018
           </p>
           <h2>ACCOUNTING CONSULTANT</h2>
-          <p>Frans Schartaus Handelsinstitut. Higher Vocational Education.
-            <br>Stockholm 2011 - 2013
+          <p>
+            Frans Schartaus Handelsinstitut. Higher Vocational Education.
+            <br />Stockholm 2011 - 2013
           </p>
           <h2>BIOLOGY</h2>
           <p>
-            Stockholm University. Master’s biology program specializing in
-            plant systematics.
-            <br>Stockholm 2005 - 2011
+            Stockholm University. Master’s biology program specializing in plant
+            systematics.
+            <br />Stockholm 2005 - 2011
           </p>
         </div>
       </div>
